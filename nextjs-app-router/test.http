@@ -1,0 +1,20 @@
+PUT https://api.escuelajs.co/api/v1/products/1
+Content-Type: application/json
+
+{
+  "title": "Change title"
+ 
+}
+
+### create
+
+POST https://api.escuelajs.co/api/v1/products/
+Content-Type: application/json
+
+{
+  "title": "New Product 11",
+  "price": 10,
+  "description": "A description",
+  "categoryId": 1,
+  "images": ["https://placeimg.com/640/480/any"]
+}
